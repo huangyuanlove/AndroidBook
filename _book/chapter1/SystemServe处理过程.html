@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Android启动 · GitBook</title>
+        <title>SystemServe处理过程 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="init.html" />
+    <link rel="next" href="Launcher启动过程.html" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="Zygote进程启动.html" />
     
 
     </head>
@@ -102,7 +102,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="./">
             
                 <a href="./">
             
@@ -142,7 +142,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="SystemServe处理过程.html">
+        <li class="chapter active" data-level="1.2.3" data-path="SystemServe处理过程.html">
             
                 <a href="SystemServe处理过程.html">
             
@@ -435,7 +435,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Android启动</a>
+        <a href=".." >SystemServe处理过程</a>
     </h1>
 </div>
 
@@ -450,7 +450,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>Android&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x6D41;&#x7A0B;</p>
+                                <p>SystemServe&#x5904;&#x7406;&#x8FC7;&#x7A0B;</p>
 
                                 
                                 </section>
@@ -478,12 +478,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                <a href="Zygote进程启动.html" class="navigation navigation-prev " aria-label="Previous page: Zygote进程启动过程">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="init.html" class="navigation navigation-next " aria-label="Next page: init进程启动">
+                <a href="Launcher启动过程.html" class="navigation navigation-next " aria-label="Next page: Launcher启动过程">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -494,11 +494,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-<<<<<<< HEAD
-            gitbook.page.hasChanged({"page":{"title":"Android启动","level":"1.2","depth":1,"next":{"title":"init.rc","level":"1.2.1","depth":2,"path":"chapter1/init_rc.md","ref":"chapter1/init_rc.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/README.md","mtime":"2020-12-25T03:21:42.972Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-29T13:07:46.346Z"},"basePath":"..","book":{"language":""}});
-=======
-            gitbook.page.hasChanged({"page":{"title":"Android启动","level":"1.2","depth":1,"next":{"title":"init进程启动","level":"1.2.1","depth":2,"path":"chapter1/init.md","ref":"chapter1/init.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/README.md","mtime":"2020-12-25T03:21:42.972Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-29T06:02:32.949Z"},"basePath":"..","book":{"language":""}});
->>>>>>> master
+            gitbook.page.hasChanged({"page":{"title":"SystemServe处理过程","level":"1.2.3","depth":2,"next":{"title":"Launcher启动过程","level":"1.2.4","depth":2,"path":"chapter1/Launcher启动过程.md","ref":"chapter1/Launcher启动过程.md","articles":[]},"previous":{"title":"Zygote进程启动过程","level":"1.2.2","depth":2,"path":"chapter1/Zygote进程启动.md","ref":"chapter1/Zygote进程启动.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/SystemServe处理过程.md","mtime":"2020-12-29T06:56:43.875Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-29T06:02:32.949Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
