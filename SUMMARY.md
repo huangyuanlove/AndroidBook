@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Android启动](chapter1/README.md)
-    * [init进程启动](chapter1/init.md)
+    * [init进程启动](chapter1/init进程启动.md)
     * [Zygote进程启动过程](chapter1/Zygote进程启动.md)
     * [SystemServe处理过程](chapter1/SystemServe处理过程.md)
     * [Launcher启动过程](chapter1/Launcher启动过程.md)
