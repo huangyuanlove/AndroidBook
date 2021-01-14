@@ -3,8 +3,9 @@ source ~/.nvm/nvm.sh
 nvm use v10.23.0
 gitbook build
 # 删除原来doc下的文件
-rm -r doc/
+rm -r docs/
 
 # 复制文件
-cp -r _book/ doc
+cp -r _book/ docs
+
 
