@@ -8,4 +8,15 @@ rm -r docs/
 # 复制文件
 cp -r _book/ docs
 
+# 提交
+git add .
+
+if($1="")
+then 
+    git commit -m "$1"
+else 
+    git commit -m "update"
+
+fi
+
 
