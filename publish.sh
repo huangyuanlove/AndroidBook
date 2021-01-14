@@ -7,6 +7,7 @@ rm -r docs/
 
 # 复制文件
 cp -r _book/ docs
+cp gitbook_config.yml docs/_config.yml
 
 # 提交
 git add .
@@ -17,7 +18,7 @@ then
 else 
     git commit -m "update"
 fi
-
+echo "正在提交。。。。。。"
 git push origin master
 
 
