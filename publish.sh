@@ -18,4 +18,6 @@ else
     git commit -m "update"
 fi
 
+git push origin master
+
 
