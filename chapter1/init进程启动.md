@@ -1,1 +1,2 @@
-系统启动之初，依靠init.rc配置文件进行启动
+init 的主要操作是加载它的配置文件,并执行配置文件中的相关指令.传统上使用的配置文件有两个,主配置文件/init.rc 和与设备相关的配置文件/init.*hardwate*.rc ,这里的hardwate是从内核参数androidboot.hardwate或是从/proc/cpuinfo伪文件那里获取的字符串.
+.rc文件是由triggger语句块和servicie语句块构成的.trigger语句块中的命令会在触发条件被满足时执;而service语句块中定义的是各个守护进程,init会根据命令启动相关守护进程,也可以根据相关参数修改服务的状态;
